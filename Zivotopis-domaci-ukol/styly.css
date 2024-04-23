@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --labels-paragraph: rgb(116, 116, 116);
+  --background-body: rgb(241, 241, 241);
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background: var(--background-body);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page-cover {
+  width: 90%; /*zabere 90 % z jakékoliv obrazovky*/
+  max-width: 800px; /* maximální šířka*/
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 50px 15px; /**/
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px; /*spodní okraj*/
+}
+
+.personal-information,
+.education,
+.practise,
+.other-skills {
+  margin-bottom: 35px; /*spodní okraj*/
+}
+
+h2 {
+  border-bottom: 1px solid var(--labels-paragraph);
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%; /*uděláv kulatou fotku, pokud height+width má stejné pixely*/
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 25px; /*horní okraj u odstavců*/
+}
+
+li {
+  color: var(--labels-paragraph);
+}
+
+p {
+  margin-top: 25px; /*horní okraj u odstavců*/
+  text-align: justify;
+  color: var(--labels-paragraph);
+}
